@@ -12,4 +12,3 @@ print(f"Total number of deaths globally: {deaths}")
 for i in (api["confirmed"]["locations"]):
     if (i["country"] == country):
         print(f'{country} has {i["latest"]} recent cases.')
-confirmed_all = api["confirmed"]["locations"][0]
